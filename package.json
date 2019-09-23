@@ -1,0 +1,21 @@
+{
+  "name": "shack",
+  "version": "1.0.0",
+  "description": "Shack packages",
+  "main": "shack.js",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "chai": "^3.3.0",
+    "errorhandler": "^1.3.5",
+    "express": "^4.10.4",
+    "method-override": "^2.3.2",
+    "mongodb": "^2.0.39",
+    "mongoose": "^4.1.0",
+    "request": "^2.64.0",
+    "node-arp": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Andrew Zamler-Carhart",
+  "license": "ISC"
+}

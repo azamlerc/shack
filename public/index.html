@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html>
+  <head>
+	  <title>Shack Shack</title>
+  </head>
+<link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/shack.js"></script>
+
+<script>
+
+var outline;
+
+function outlineItem(object, type, target, params) {
+	var name = object.name;
+	if (name == undefined) name = "Untitled"; 
+	return ($('<li>').append($('<a>').attr('href', type + '.html?' + $.param(params)).attr('target', target).append(name)));
+}
+
+$(function() {
+	outline = $('ul#outline');
+	appendMenus(outline);
+	
+	function appendMenus(menusList) {
+		getMenus(function(menus) {
+			for (var i = 0; i < menus.length; i++) {
+				var menu = menus[i];
+				var menuItem = $('<li>').append(menu.name);
+        var list = $('<ul>');
+        list.append($('<li>').append(menu.description));
+        menuItem.append(list);
+        menusList.append(menuItem);    
+			}
+		});
+	}	
+});
+
+</script>
+
+<body bgcolor="white">
+
+<h2>Shack Shack</h2>
+
+<ul id="outline">
+	
+</ul>
+
+</body>
+</html>

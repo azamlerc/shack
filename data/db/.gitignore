@@ -1,0 +1,6 @@
+journal
+*.ns
+*.0
+*.lock
+*.bson
+*

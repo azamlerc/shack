@@ -1,0 +1,6 @@
+.DS_Store
+.google
+*.iml
+build
+local.properties
+node_modules

@@ -1,0 +1,53 @@
+{
+  "menus": [
+    {
+      "_id": "5645fa4c0f1b508cb3e53900",
+      "name": "ShackBurger",
+      "description": "Single or Double Cheeseburger topped with lettuce, tomato, ShackSauce.",
+      "price": 6.99,
+      "calories": 530
+    },
+    {
+      "_id": "5645fa4c0f1b508cb3e53901",
+      "name": "Hamburger",
+      "description": "Single or Double Choice of lettuce, tomato, pickle or onion.",
+      "price": 5.99,
+      "calories": 400
+    },
+    {
+      "_id": "5645fa4c0f1b508cb3e53902",
+      "name": "Shack Stack",
+      "description": "Cheeseburger and a Shroom Burger topped with lettuce, tomato, ShackSauce.",
+      "price": 8.99,
+      "calories": 800
+    },
+    {
+      "_id": "5645fa4c0f1b508cb3e53903",
+      "name": "SmokeShack",
+      "description": "Single or Double Cheeseburger topped with all-natural applewood smoked bacon, chopped cherry pepper, ShackSauce.",
+      "price": 7.99,
+      "calories": 610
+    },
+    {
+      "_id": "5645fa4c0f1b508cb3e53904",
+      "name": "Shroom Burger",
+      "description": "Crisp-fried portobello mushroom filled with melted muenster and cheddar cheeses, topped with lettuce, tomato, ShackSauce.",
+      "price": 6.99,
+      "calories": 550
+    },
+    {
+      "_id": "5645fa4c0f1b508cb3e53905",
+      "name": "Shack-cago Dog",
+      "description": "Dragged through the garden with Rick's Picks Shack relish, onion, cucumber, pickle, tomato, sport pepper, celery salt, mustard.",
+      "price": 5.99,
+      "calories": 410
+    },
+    {
+      "_id": "5645fa4c0f1b508cb3e53906",
+      "name": "Hot Dog",
+      "description": "Add Shack cheese sauce.",
+      "price": 3.99,
+      "calories": 390
+    }
+  ]
+}
