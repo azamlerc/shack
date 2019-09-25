@@ -36,10 +36,6 @@ app.use(errorHandler({
 
 // MENUITEMS
 
-app.get('/test', function (req, res) {
-  res.json({cool: "oh yeah"});
-});
-
 app.get('/menu', function (req, res) {
 	shackdb.Menu.find(function (err, list) {
 	    if (err) return res.send(err);
@@ -51,7 +47,7 @@ app.post('/menu', function (req, res) {
 	var menu = req.body;
 	menu.created = new Date();
 	menu.modifed = new Date();
-	shackdb.Menu.create(req.body, function (err, post) {
+	shackdb.Menu.create(menu, function (err, post) {
 		if (err) return res.send(err);
 		res.json(post);
 	});
