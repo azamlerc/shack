@@ -10,7 +10,7 @@
     "express": "^4.10.4",
     "method-override": "^2.3.2",
     "mongodb": "^2.0.39",
-    "mongoose": "^4.1.0",
+    "mongoose": "^5.7.8",
     "request": "^2.64.0",
     "node-arp": "^1.0.5"
   },
